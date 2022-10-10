@@ -10,6 +10,11 @@ header {
     background-color: #FCD520;
 }
 
+#logo {
+    width: 5em;
+
+}
+
 .menu-list {
     display: flex;
     justify-content: space-around;
@@ -23,31 +28,52 @@ header {
     text-decoration: none;
 }
 
-#logo {
-    width: 5em;
+#wrapper1 .heading2 {
+    text-align: center;
+    padding-bottom: 20px;
 }
 
-.showcase {
+#wrapper1 #artists {
     display: flex;
-    justify-content: space-around;
-    text-align: center;
-    background-color: darkgrey;
-}
-
-.main-page {
-    text-align: center;
-    
+    justify-content: center;
+    margin: 0 30%;
+    padding-bottom: 20px;
 }
 
 #artists img {
     display: flex;
-    justify-content: space-between;
-    margin: 0 30%;
-    padding-left: 20px;
-    padding-left: 20px;
-    width: 100px;
-    height: 200px ;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 250px;
+    padding: 20px;
 }
 
+#showcase {
+    min-height: 400px;
+    background-image: url('../images/download.jfif');
+    text-align: center;
+    color: white;
+}
 
+#showcase h1 {
+    font-size: x-large;
+    padding-top: 100px;
 
+}
+
+#showcase p {
+    padding-top: 10px;
+    font-size: larger;
+}
+
+footer {
+    background-color: #FCD520;
+    padding: 5px;
+    border-radius: black; 
+}
+
+footer p {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
